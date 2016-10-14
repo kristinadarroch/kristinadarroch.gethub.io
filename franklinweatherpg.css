@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand');
+
+
+
+body {
+    text-align: center;
+    background-color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+img {
+    width: 100%;
+    height: auto;
+}
