@@ -10,8 +10,19 @@ body {
 
 ul {
     list-style: none;
+    padding: 0;
+    
+}
+nav li {
+    width: 100%; 
+    margin: 20px;
 }
 img {
-    width: 100%;
+    width: 80%;
     height: auto;
 }
+header{
+    padding: ;
+}
+
+
