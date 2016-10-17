@@ -7,4 +7,11 @@ font-family: 'Over the Rainbow', cursive;
 body {
     background-color: #dfbaba; 
     font-family: 'Hind Vadodara', sans-serif;
+    text-align: center;
 }
+ul#otis {
+ list-style-type: none;
+ }
+ul#none {
+ list-style-type: none;
+ }
