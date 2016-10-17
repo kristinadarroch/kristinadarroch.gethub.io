@@ -1,0 +1,19 @@
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro');
+img {
+    width: 80%;
+    height: auto;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+h1{
+    color: black;
+}
+h2{
+    color: red;
+}
