@@ -115,6 +115,11 @@
     td {
         background-color: whitesmoke;
     }
+    #computerscreen{
+        height: auto;
+        width: 400px;
+        padding: 30px;
+    }
 }
 
 @media screen and (max-device-width: 500px) {
@@ -151,4 +156,10 @@
         font-size: 20px;
         margin-top: 0;
     } 
+    #computersceen{
+        height: auto;
+    }
+    table{
+        display: none;
+    }
 }
