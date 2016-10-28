@@ -12,7 +12,31 @@ body {
     margin: 0;
     padding: 0;
 }
-
+#wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+#page-header{
+    width: 100%;
+    text-align: center;
+}
+.content{
+    display: flex;
+}
+#page-nav{
+    width: 20%;
+    
+}
+main{
+    width: 50%;
+}
+#page-aside{
+    width: 30%;
+}
+#page-nav, main, #page-aside{
+    border: 1px solid #000;
+}
+/*
 @media screen and (min-width: 600px) {
     #page-header {
         width: 100%;
@@ -36,5 +60,6 @@ body {
     }
     #page-footer {
         clear: left;
-    }
+    } 
+*/
 }
