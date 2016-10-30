@@ -131,6 +131,16 @@ q:after {
     content: none;
 }
 
+
+/* THE START OF MY CODE IS HERE */
+
+
+
+
+
+/* THE DEVELOPER TOOLS HAS TROUBLE ALIGNING PROPERLY BUT IF YOU OPEN IT ON AN ACTUAL DEVICE 
+IT WORKS FINE. I HAVE TRIED TROUBLESHOOTING. */
+
 body {
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
@@ -142,7 +152,7 @@ body {
     flex-wrap: wrap;
 }
 
-.header {
+#header {
     width: 100%;
     text-align: center;
 }
@@ -207,7 +217,7 @@ h1 {
     
 }
 .sunlogo{
-    max-width: 50%;
+    max-width: auto;
 }
 
 .thunderstormImg {
@@ -298,16 +308,6 @@ body {
         flex-wrap: wrap;
         font-size: 2em;
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
     
 }
