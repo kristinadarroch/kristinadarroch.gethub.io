@@ -1,15 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Over+the+Rainbow");
 @import url("https://fonts.googleapis.com/css?family=Hind+Vadodara");
+
+
 h1 {
 font-family: 'Over the Rainbow', cursive;
-   
-    
+    width: 100%;
 }
 body {
-    background-color: #dfbaba; 
+    background-color: #d6d9dc; 
     font-family: 'Hind Vadodara', sans-serif;
     
 }
+
 ul#otis {
  list-style-type: none;
  }
@@ -18,4 +20,10 @@ ul#none {
  }
 ul#teach {
     list-style-type: none;
+}
+#homework{
+    color: red;
+}
+#presentations{
+    color: red;
 }
