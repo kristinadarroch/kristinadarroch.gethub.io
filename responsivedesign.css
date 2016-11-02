@@ -157,11 +157,12 @@ body {
     text-align: center;
 }
 
-h1 {
+#page-header {
     font-size: 45px;                
     padding: 20px;
     text-transform: uppercase;
     color: #64655e;
+    text-align: center;
 }
 
 .cities {
