@@ -1,0 +1,57 @@
+body{
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+h1{
+  color: #111111;
+  font-family: 'Amatic SC', cursive;
+  font-size: 75px;
+  /*change the main h1 font, looks horrible*/
+}
+/*
+COLOR SCHEME CODES:
+#efbb38
+#f4a17d
+#111111
+*/
+
+#page-nav{
+  list-style: none;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  background-color: #f4a17d;
+  margin: 0;
+}
+#about{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 20px 20px;
+}
+#spring{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 20px 20px;
+}
+#winter{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 20px 20px;
+}
+#fall{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 20px 20px;
+}
+#summer{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 20px 20px;
+}
