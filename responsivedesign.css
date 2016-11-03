@@ -162,6 +162,10 @@ body {
     text-align: center;
 }
 
+#page-nav{
+    background-color: #64655e;
+}
+
 .cities {
     list-style: none;
     font-size: 20px;

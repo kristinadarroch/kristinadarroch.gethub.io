@@ -4,7 +4,8 @@ body{
 }
 h1{
   color: #111111;
-  font-family: 'Amatic SC', cursive;
+  font-family: 'Raleway', sans-serif;
+  text-transform: uppercase;
   font-size: 75px;
   /*change the main h1 font, looks horrible*/
 }
@@ -54,4 +55,8 @@ COLOR SCHEME CODES:
   text-transform: uppercase;
   color: #111111;
   padding: 20px 20px;
+}
+a:hover{
+  color: #efbb38;
+  text-decoration: none;
 }
