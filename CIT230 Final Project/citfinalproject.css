@@ -62,7 +62,19 @@ h1{
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
   font-size: 80px;
+
   /*change the main h1 font, looks horrible*/
+}
+h2{
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	display: flex;
+	justify-content: flex-start;
+  padding-top: 50px;
+	padding-left: 50px;
+}
+#fallfashion{
+	padding-top: 50px;
 }
 /*
 COLOR SCHEME CODES:
