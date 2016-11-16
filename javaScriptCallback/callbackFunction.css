@@ -1,3 +1,49 @@
-title{
+body{
+background-color: white;
+    text-align: center;
+    
+}
+nav{
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+}
+.homepage{
+    text-decoration: none;
+    background-color: lightgray;
+    color: black;
+    padding: 11px;
+    
+}
+p{
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
     font-family: 'Cutive Mono', monospace;
+    color: #0057e7;
+}
+h2{
+    font-family: 'Cutive Mono', monospace;
+}
+
+
+.function{
+    color: #d62d20;
+}
+.code{
+    color: #d62d20;
+}
+.work{
+    color: #d62d20;
+}
+.syntax{
+    color: #d62d20;
+}
+.powerpoint{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 20px;
 }
