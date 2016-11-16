@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Callback Function</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="/javaScriptCallback/callbackFunction.css" media="screen">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>JavaScript Callback Function</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li>
+                <a href="../index.html" class="homepage">Go Back to My Homepage</a>
+            </li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <h2 class="function">What is a Callback Function?</h2>
+        <p>A callback function, also known as a higher-order function, is a function that is passed to another function. Before the function is called back to the caller, it does something else. A callback function is essentially a pattern, and therefore, the use of a callback function is also known as a callback pattern.</p>
+
+        <h2 class="code">Example of how you could use a callback function in your code.</h2>
+
+        <p>Javascript is an event driven language. If do_a takes longer than do_b, the result of do_b comes out first than do_a;
+            <br> So how do we make sure do_b comes out after do_a in that situation? This is where callbacks comes in handy.</p>
+
+        <h2 class="work">How do callback functions work?</h2>
+
+        <p>JavaScript statements are executed line by line. However, with effects, the next line of code can be run even though the effect is not finished. This can create errors. To prevent this, you can create a callback function. A callback function is executed after the current effect is finished.
+            <br> Typical syntax: $(selector).hide(speed,callback);</p>
+
+        <h2 class="syntax">Syntax Example</h2>
+        <p>The example below has a callback parameter that is a function that will be executed after the hide effect is completed:
+            <br> $("button").click(function(){
+            <br> $("p").hide("slow", function(){
+            <br> alert("The paragraph is now hidden");
+            <br> });
+            <br> });
+        </p>
+
+        <a href="/javaScriptCallback/javascriptCallbackPresentation.pdf" class="powerpoint">View my full PowerPoint presentation here</a>
+
+
+    </main>
+
+    <footer>
+        <ul>
+            <li>&copy;2016</li>
+            <li>
+                Kristina Darroch
+            </li>
+            <li>Last Updated: 16 November 2016.
+            </li>
+        </ul>
+    </footer>
+</body>
+
+</html>
