@@ -52,46 +52,68 @@ table {
 
 /* THE START OF MY CODE IS HERE */
 
-
 body{
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
+	text-align: center;
 }
+
 h1{
-  color: #111111;
+  color: #ffffff;
   font-family: 'Raleway', sans-serif;
   text-transform: uppercase;
-  font-size: 80px;
+  font-size: 90px;
+	padding-top: 60px;
 
   /*change the main h1 font, looks horrible*/
 }
 h2{
-	font-family: 'Playfair Display', serif;
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
 	font-size: 30px;
 	display: flex;
 	justify-content: flex-start;
   padding-top: 50px;
 	padding-left: 50px;
 }
-#fallfashion{
-	padding-top: 50px;
+#homepic{
+	padding-top: 10px;
+	padding-right: 10px;
+	width: 50%;
+	height: 500px;
 }
-/*
-COLOR SCHEME CODES:
-#efbb38
-#f4a17d
-#111111
-*/
-
+#homepic1{
+	padding-top: 10px;
+	width: 49.4%;
+	height: 500px;
+	}
+	#stripes{
+		padding-top: 10px;
+		padding-right: 10px;
+		width: 50%;
+		height: 500px;
+	}
+	#blonde{
+		padding-top: 10px;
+		width: 49.4%;
+		height: 500px;
+	}
 #page-nav-kk{
   list-style: none;
   font-size: 40px;
   display: flex;
   justify-content: center;
   flex-direction: row;
+	background-color: #ffffff;
   width: 100%;
-  background-color: #f4a17d;
   margin: 0;
+	font-family: 'Raleway', sans-serif;
+	position: fixed;
+
+}
+#page-header-kk{
+	background-image: url(images/clothingRack.jpg);
+	background-position: center;
+	background-size: cover;
+	height: 400px;
 }
 #about{
   text-decoration: none;
@@ -123,16 +145,30 @@ COLOR SCHEME CODES:
   color: #111111;
   padding: 20px 20px;
 }
-p{
-  font-family: 'Playfair Display', serif;
-  font-size: 25px;
+#intro{
+	display: block;
+	width: 50%;
+	font-family: 'Raleway', sans-serif;
+	font-size: 30px;
+	color: #111111;
+}
+#hat{
+	width: 50%;
+	height: 400px;
 }
 .hello{
-  display: flex;
-  width: 50%;
-  text-align: left;
-
+	display: flex;
+	flex-direction: row;
 }
+.oneLine{
+	display: flex;
+	flex-direction: row;
+}
+.lines{
+	display: flex;
+	flex-direction: row;
+}
+
 
 a:hover{
   color: #efbb38;
