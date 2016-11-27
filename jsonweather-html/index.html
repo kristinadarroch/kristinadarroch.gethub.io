@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather Home</title>
+  <meta name="viewport" content="width=device-width">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="stylesheet" href="/jsonweather-html/css/weather-style.css" type="text/css" media="screen">
+</head>
+<!-- *********************************************
+* Who Did You Collaborate With On This Assessment?
+* 1. Kristina Darroch
+* 2. Joseph Walker
+* 3. Jeff Munoz
+* 4.
+* 5.
+* ******************************************** -->
+<body>
+  <div id="wrapper">
+    <header id="page-header"></header>
+    <nav id="page-nav"></nav>
+    <main id="page-main">
+      <section class="weather-container">
+        <div id="cover">
+          <div id="status">Loading...</div>
+        </div>
+        <h1 id="cityDisplay">City</h1>
+        <h2>Current Conditions</h2>
+        <ul id="current_conditions">
+          <li id="currentTemp"></li>
+          <li id="summary"></li>
+          <li id="add1"></li>
+          <li id="add2"></li>
+          <li id="add3"></li>
+        </ul>
+      </section>
+    </main>
+    <footer id="page-footer">
+      <div id="footer-content"></div>
+      <small>Last updated: </small>
+    </footer>
+    <script src="/jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
+    <script src="/jsonweather-html/scripts/modules.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+      <script>
+      jQuery(document).ready(function($) {
+    $.ajax({
+    url : "http://api.wunderground.com/api/a5c6a1e0c48cd54e/geolookup/conditions/q/IA/Cedar_Rapids.json",
+    dataType : "jsonp",
+    success : function(remote_wu) {
+    var location = parsed_json['location']['city'];
+    var temp_f = parsed_json['current_observation']['temp_f'];
+    alert("Current temperature in " + location + " is: " + temp_f);
+  }
+  });
+});
+</script>
+  </div>
+</body>
+
+</html>

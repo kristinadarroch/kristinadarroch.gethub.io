@@ -52,9 +52,6 @@ table {
 
 /* THE START OF MY CODE IS HERE */
 
-body{
-	text-align: center;
-}
 
 h1{
   color: #ffffff;
@@ -62,6 +59,7 @@ h1{
   text-transform: uppercase;
   font-size: 90px;
 	padding-top: 60px;
+	text-align: center;
 
   /*change the main h1 font, looks horrible*/
 }
@@ -115,35 +113,47 @@ h2{
 	background-size: cover;
 	height: 400px;
 }
+.winterHeader{
+	background-image: url(images/winterSnow.jpg);
+	position: center;
+	background-size: cover;
+	height: 500px;
+}
 #about{
   text-decoration: none;
   text-transform: uppercase;
   color: #111111;
-  padding: 20px 20px;
+  padding: 15px 15px;
+}
+#home{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #111111;
+  padding: 15px 15px;
 }
 #spring{
   text-decoration: none;
   text-transform: uppercase;
   color: #111111;
-  padding: 20px 20px;
+  padding: 15px 15px;
 }
 #winter{
   text-decoration: none;
   text-transform: uppercase;
   color: #111111;
-  padding: 20px 20px;
+  padding: 15px 15px;
 }
 #fall{
   text-decoration: none;
   text-transform: uppercase;
   color: #111111;
-  padding: 20px 20px;
+  padding: 15px 15px;
 }
 #summer{
   text-decoration: none;
   text-transform: uppercase;
   color: #111111;
-  padding: 20px 20px;
+  padding: 15px 15px;
 }
 #intro{
 	display: block;
@@ -168,9 +178,46 @@ h2{
 	display: flex;
 	flex-direction: row;
 }
-
-
-a:hover{
-  color: #efbb38;
-  text-decoration: none;
+.currentFashions{
+	display: flex;
+	justify-content: flex-start;
+	font-family: 'Raleway', sans-serif;
+	font-size: 25px;
+}
+.summerHeader{
+	background-image: url(images/summerpic.jpg);
+	position: center;
+	background-size: cover;
+	height: 600px;
+}
+.springHeader{
+	background-image: url(images/springdress.jpg);
+	position: center;
+	background-size: cover;
+	height: 600px;
+}
+.fallHeader{
+	background-image: url(images/fallleaves.jpg);
+	position: center;
+	background-size: cover;
+	height: 600px;
+}
+.homework{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-top: 20px;
+	list-style: circle;
+}
+#presentations{
+	font-family: 'Raleway', sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding-left: 50px;
+	padding-top: 20px;
+	list-style: circle;
+}
+.pad{
+	padding: 10px;
 }
