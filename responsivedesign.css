@@ -140,7 +140,9 @@ q:after {
 
 /* THE DEVELOPER TOOLS HAS TROUBLE ALIGNING PROPERLY BUT IF YOU OPEN IT ON AN ACTUAL DEVICE 
 IT WORKS FINE. I HAVE TRIED TROUBLESHOOTING. */
-
+.search{
+    text-align: center;
+}
 body {
     font-family: 'Titillium Web', sans-serif;
     margin: 0;
