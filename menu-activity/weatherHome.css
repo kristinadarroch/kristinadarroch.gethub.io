@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+
+/* THE START OF MY CODE IS HERE */
+
+.page-header{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+.search{
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+body{
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: #64655e;
+    background-color: #e8f2f6;
+}
+.cities{
+    background-color: #64655e;
+    width: 100%;
+    font-size: 25px;
+}
+
+
+.franklin {
+    text-decoration: none;
+    background-color: #64655e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.greenville {
+    text-decoration: none;
+    text-decoration: none;
+    background-color: #64655e;
+    color: white;
+    padding: 10px 20px; 
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.springfield {
+    text-decoration: none;
+    text-decoration: none;
+    background-color: #64655e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+.current{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: #64655e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/* JSON INFORMATION */
+
+
+
+#h1{
+    font-size: 40px;
+}
+#currenttemp{
+    font-size: 30px;
+    padding-top: 10px;
+}
+#high{
+    font-size: 20px;
+    padding-top: 10px;
+}
+#low{
+    font-size: 20px;
+    padding-top: 4px;
+}
+#summary{
+    font-size: 20px;
+    padding-top: 15px;
+}
+#feelslike{
+    font-size: 20px;
+    padding-top: 10px;
+}
+#windspeed{
+    font-size: 20px;
+    padding-top: 10px;
+}
+#visibility{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+#searchresults ol{
+    position: relative;
+    display: inline-block;
+}
+
+#searchresults ol li {
+    position: absolute;
+    min-width: 200px;
+    margin-left: -200;
+    
+}
+
+
+
+
+

@@ -209,6 +209,16 @@ body {
     text-decoration: none;
     display: inline-block;
 }
+.current{
+    text-decoration: none;
+    text-decoration: none;
+    background-color: #64655e;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
 .down{
     text-decoration: none;
     text-decoration: none;

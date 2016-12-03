@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Weather | kristinadarroch.github.io</title>
+    <link rel="shortcut icon" type="image/x-icon" href="#">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="/menu-activity/weatherHome.css" media="screen">
+    <meta name="viewport" content="width=device-width">
+      <style>
+          @import url('https://fonts.googleapis.com/css?family=Raleway');
+      </style>
+      
+  </head>
+    
+    <header class="page-header">
+        <h1>Weather</h1>
+    </header>
+  
+    
+    <div class="search">
+    
+    <form method="get" action="//autocomplete.wunderground.com/aq" id="srchfrm">
+  <input type="search" name="query" id="query">
+  <input type="submit" name="submit" value="Search" id="send">
+</form>
+
+<section id="searchResults">
+  <h2>Search Results</h2>
+</section>
+
+<script src="/jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
+    
+
+<script src="scripts/search.js"></script>
+
+</div>
+    
+    <nav class="page-nav">
+      <ul>
+            <li class="cities">
+                <a href="../franklin.html" class="franklin">Franklin, ID</a>
+                <a href="../greenville.html" class="greenville">Greenville, SC</a>
+                <a href="#" class="springfield">Springfield, IL</a>
+                <a href="/menu-activity/weatherHome.html" class="current">Current Location</a>
+                
+            </li>
+        </ul>
+      
+    <noscript>JavaScript is not enabled. For navigation, please visit the <a href="#">Site Map</a></noscript>
+  </nav>
+    
+  <body class="container">
+    <main>
+      <br>
+      <div>
+        <div id="h1"></div><br>
+        <div id='currenttemp'></div>
+        <div id="high"></div>
+        <div id="low"></div>
+        <div id='summary'></div>
+        <div id='feelslike'></div>
+        <div id='windspeed'></div>
+        <div id='visibility'></div>
+      </div>
+    </main>
+    <br>
+    <footer class="page-footer">
+        
+        <ul>
+        <li>&copy;2016</li>
+        <li>
+            Kristina Darroch
+        </li>
+        <li>Last Updated: 2 December 2016.
+        </li>
+    </ul>
+
+        
+        
+      <noscript>JavaScript is not enabled. For navigation, please visit the <a href="/homework/sitemap.html">Site Map</a></noscript>
+    </footer>
+    <script src="/jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
+    <script src="/menu-activity/scripts/modulehome.js"></script>
+    <script src="/jsonweather-html/scripts/weather.js"></script>
+    <script src="/menu-activity/scripts/menu.js"></script>  
+  </body>
+
+</html>
