@@ -107,6 +107,30 @@ h2{
 	position: fixed;
 
 }
+
+
+/* HOVER ATTRIBUTES */
+#home:hover{
+	color: #538370;
+}
+#about:hover{
+	color: #538370;
+}
+#spring:hover{
+	color: #538370;
+}
+#winter:hover{
+	color: #538370;
+}
+#fall:hover{
+	color: #538370;
+}
+#summer:hover{
+	color: #538370;
+}
+
+
+
 #page-header-kk{
 	background-image: url(images/clothingRack.jpg);
 	background-position: center;
