@@ -1,64 +1,73 @@
-<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Weather Home</title>
-  <meta name="viewport" content="width=device-width">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <link rel="stylesheet" href="/jsonweather-html/css/weather-style.css" type="text/css" media="screen">
-</head>
-<!-- *********************************************
-* Who Did You Collaborate With On This Assessment?
-* 1. Kristina Darroch
-* 2. Joseph Walker
-* 3. Jeff Munoz
-* 4.
-* 5.
-* ******************************************** -->
-<body>
-  <div id="wrapper">
-    <header id="page-header"></header>
-    <nav id="page-nav"></nav>
-    <main id="page-main">
-      <section class="weather-container">
-        <div id="cover">
-          <div id="status">Loading...</div>
+    <meta charset="utf-8">
+    <title>Kristina's Kloset</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="citfinalproject.css" media="screen">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+        @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+        @import url('https://fonts.googleapis.com/css?family=Raleway');
+        @import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond');
+        @import url('https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Cormorant+Infant|Homemade+Apple|Josefin+Slab|Shadows+Into+Light');
+        @import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+        @import url('https://fonts.googleapis.com/css?family=League+Script');
+    </style>
+    
+    <nav id="page-nav-kk">
+
+
+
+    </nav>
+    <header id="page-header-kk">
+        <!-- <h1>Kristina's Kloset</h1> -->
+    </header>
+
+
+    <main>
+
+        <div class="space">
         </div>
-        <h1 id="cityDisplay">City</h1>
-        <h2>Current Conditions</h2>
-        <ul id="current_conditions">
-          <li id="currentTemp"></li>
-          <li id="summary"></li>
-          <li id="add1"></li>
-          <li id="add2"></li>
-          <li id="add3"></li>
-        </ul>
-      </section>
-    </main>
-    <footer id="page-footer">
-      <div id="footer-content"></div>
-      <small>Last updated: </small>
-    </footer>
-    <script src="/jsonweather-html/scripts/jquery-3.0.0.min.js"></script>
-    <script src="/jsonweather-html/scripts/modules.js"></script>
-    <script src="/jsonweather-html/scripts/remote_wu.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
-      <script>
-      jQuery(document).ready(function($) {
-    $.ajax({
-    url : "https://api.wunderground.com/api/a5c6a1e0c48cd54e/geolookup/conditions/q/IA/Cedar_Rapids.json",
-    dataType : "jsonp",
-    success : function(remote_wu) {
-    var location = parsed_json['location']['city'];
-    var temp_f = parsed_json['current_observation']['temp_f'];
 
-        alert("Current temperature in " + location + " is: " + temp_f);
-  }
-  });
-});
-</script>
-  </div>
-</body>
 
+        <div class="aboutTheSite">
+            Kristina's Kloset is a fashion ideas site similar to pintrest. If you like something you want to buy, click on it and it will take you to the page to buy it! Enjoy!
+            <br> xoxo, Kristina
+
+        </div>
+
+        <div class="oneLine">
+
+
+
+            <img alt="oldTruck" src="images/oldTruck.jpg" id="homepic" />
+
+
+
+
+            <img alt="fallTrees" src="images/fallTreesFashion.jpg" id="homepic1" />
+
+
+ <div class="lines">
+
+
+
+            <img alt="sripedDress" src="images/stripedDress.jpg" id="stripes" />
+
+
+
+
+            <img alt="jewelry" src="images/jewleryGirl.jpg" id="blonde" />
+
+
+        </div>
+
+ <footer id="page-footer-kk">
+        <!-- the footer will be called from jQuery -->
+     
+     <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="scripts/jquery.js"></script>
+
+    <noscript>Your browser does not support JavaScript!</noscript>
 </html>
