@@ -5,8 +5,9 @@
     <a href=' somepath.html'>
     */
 console.log("f")
-$.getJSON( "/../spring.html", function( data ) {
-    console.log("test")
+$.getJSON( "/CIT230FinalProject/spring.json", function( data ) {
+    console.log("test");
+    console.log(data);
   var items = [];
   $.each( data, function( key, val ) {
       console.log("Hello")
