@@ -11,7 +11,7 @@ $.getJSON( "summer.json", function( data ) {
   });
  
   $( "<ul/>", {
-    "class": "my-new-list",
+    "id": "summergetit",
     html: items.join( "" )
   }).appendTo( "main" );
 });

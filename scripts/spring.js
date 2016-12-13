@@ -17,7 +17,7 @@ $.getJSON( "spring.json", function( data ) {
   });
  
   $( "<ul/>", {
-    "class": "my-new-list",
+    "id": "my-new-list",
     html: items.join( "" )
   }).appendTo( "main" );
 });

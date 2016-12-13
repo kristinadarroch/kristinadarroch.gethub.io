@@ -389,6 +389,20 @@ table {
     .space{
         padding-top: 10px;
     }
+    #my-new-list{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-content: center;
+        padding-top: 10px;
+    }
+    #summergetit{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        justify-content: center;
+        padding-top: 10px;
+    }
     
     
 }
@@ -479,6 +493,9 @@ table {
         position: fixed;
         text-transform: uppercase;
     }
+    
+    
+    
 }
 
 @media screen and (max-device-width: 700px) {
