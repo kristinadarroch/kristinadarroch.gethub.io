@@ -1,0 +1,36 @@
+{
+    "summeroutfit1":{
+        "imgSrc": "/images/summerShortsRed.jpeg",
+        "link": "http://www.roolee.com/clearance/surf-day-shorts"
+        
+    },
+    
+    "summerOutfit2":{
+        "imgSrc": "/images/SummerBermuda.jpeg",
+        "link": "http://www.roolee.com/clearance/sunset-sky-bermudas"
+        
+    },
+    
+    "summerOutfit3":{
+        "imgSrc": "/images/summerLaceTee.jpeg",
+        "link": "https://www.anthropologie.com/shop/tiered-tunic-top?category=tops-blouses&color=064"
+    },
+    
+    "summeroutfit4":{
+        "imgSrc": "/images/summerGreenShorts.jpeg",
+        "link": "https://www.anthropologie.com/shop/tenley-roll-up-shorts?category=bottoms-shorts&color=031"
+        
+    },
+    "summeroutfit5":{
+        "imgSrc": "/images/summerWhiteTop.jpeg",
+        "link": "https://www.anthropologie.com/shop/tenley-roll-up-shorts?category=bottoms-shorts&color=031"
+    },
+    "summeroutfit6":{
+        "imgSrc": "/images/summerBlueFloral.jpg",
+        "link": "https://www.francescas.com/product/darcie-floral-bell-sleeve-shift-dress.do?sortby=ourPicksAscend&page=2&refType=&from=fn&ecList=7&ecCategory=100122"
+    }
+    
+    
+    
+    
+}
