@@ -159,7 +159,6 @@ table {
         padding-top: 50px;
         padding-left: 50px;
     }
-    
     #homepic {
         padding-top: 10px;
         padding-right: 10px;
@@ -167,7 +166,7 @@ table {
         height: 500px;
         transition: .5s;
     }
-    #homepic:hover{
+    #homepic:hover {
         opacity: .8;
     }
     #homepic1 {
@@ -176,7 +175,7 @@ table {
         height: 500px;
         transition: .5s;
     }
-    #homepic1:hover{
+    #homepic1:hover {
         opacity: .8;
     }
     #stripes {
@@ -186,7 +185,7 @@ table {
         height: 500px;
         transition: .5s;
     }
-    #stripes:hover{
+    #stripes:hover {
         opacity: .8;
     }
     #blonde {
@@ -195,10 +194,10 @@ table {
         height: 500px;
         transition: .5s;
     }
-    #blonde:hover{
+    #blonde:hover {
         opacity: .8;
     }
-    #page-nav-kk ul{
+    #page-nav-kk ul {
         list-style: none;
         font-size: 40px;
         display: flex;
@@ -351,34 +350,33 @@ table {
         text-transform: uppercase;
         font-size: 20px;
     }
-    #pics1{
+    #pics1 {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         justify-content: center;
     }
-    .a > img{
+    .a > img {
         width: 100%;
     }
-    .a{
+    .a {
         width: 50%;
         padding: 20px;
     }
-    
-    #winterimgs{
+    #winterimgs {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         justify-content: center;
     }
-    .top{
+    .top {
         padding-top: 15px;
     }
-    .video{
+    .video {
         display: flex;
         justify-content: center;
     }
-    .aboutTheSite{
+    .aboutTheSite {
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
         font-size: 40px;
@@ -386,33 +384,64 @@ table {
         padding: 40px;
         background-color: #fdd4c1;
     }
-    .space{
+    .space {
         padding-top: 10px;
     }
-    #my-new-list{
+    #my-new-list {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         justify-content: center;
         padding-top: 10px;
     }
-    #summergetit{
+    #summergetit {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
         justify-content: center;
         padding-top: 10px;
     }
-    
-    
+    .sketch {
+        max-width: 50%;
+    }
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-bottom: 10px;
+        color: red;
+    }
+    p {
+        font-size: 20px;
+    }
+    #sitepurpose {
+        padding: 20px;
+    }
+    #targetaudience {
+        padding: 20px;
+    }
+    #persona {
+        padding: 20px;
+    }
+    #wireframe {
+        padding: 20px;
+    }
+    #json {
+        padding: 20px;
+    }
+    #htmlvid {
+        padding: 20px;
+        padding-bottom: 50px;
+    }
+    #plans {
+        padding: 20px;
+    }
 }
 
 @media screen and (min-device-width: 700px) and (max-device-width: 1199px) {
-   
-    
     /* TABLET SCREEN SIZE */
-    
-    
     #page-footer-kk {
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
@@ -465,7 +494,7 @@ table {
         text-decoration: none;
         text-transform: uppercase;
         color: #111111;
-        padding: 5px 5px;  
+        padding: 5px 5px;
     }
     #page-header-kk {
         font-family: 'Raleway', sans-serif;
@@ -493,9 +522,37 @@ table {
         position: fixed;
         text-transform: uppercase;
     }
-    
-    
-    
+    #homepic {
+        max-width: 100%;
+        padding-top: 4px;
+    }
+    #homepic1 {
+        max-width: 100%;
+    }
+    #stripes {
+        max-width: 100%;
+    }
+    #blonde {
+        max-width: 100%;
+    }
+    .sketch {
+        max-width: 100%;
+    }
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-bottom: 10px;
+        color: red;
+    }
+    #plans {
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
 
 @media screen and (max-device-width: 700px) {
@@ -565,7 +622,6 @@ table {
         text-align: center;
         padding-top: 25px;
     }
-    
     #page-nav-kk {
         list-style: none;
         font-size: 25px;
@@ -579,7 +635,8 @@ table {
         position: fixed;
         text-transform: uppercase;
     }
-    #page-nav-kk /*li */{
+    #page-nav-kk/*li */
+    {
         display: block;
     }
     #homepic {
@@ -626,27 +683,25 @@ table {
     .expand {
         display: block !important;
     }
-    
-    .images{
+    .images {
         height: 400px;
         width: 373px;
     }
-    .images1{
+    .images1 {
         padding-top: 120px;
         height: 400px;
         width: 373px;
     }
-    
-    ul.drop-menu li{
+    ul.drop-menu li {
         display: none; //hide
     }
-    li:hover > ul.drop-menu li{
+    li:hover > ul.drop-menu li {
         display: block; //show
     }
-    #hat{
+    #hat {
         width: 100%;
     }
-    #intro{
+    #intro {
         font-family: 'Raleway', sans-serif;
         font-size: 21px;
     }
@@ -668,11 +723,23 @@ table {
         background-size: cover;
         height: 600px;
     }
-    .video{
-        
+    .video {}
+    .sketch {
+        max-width: 100%;
     }
-    
-    
-    
-    
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+    h3 {
+        text-transform: uppercase;
+        font-size: 20px;
+        padding-bottom: 10px;
+        color: red;
+    }
+    #plans {
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
 }
