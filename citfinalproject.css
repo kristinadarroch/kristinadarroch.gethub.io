@@ -440,7 +440,7 @@ table {
     }
 }
 
-@media screen and (min-device-width: 700px) and (max-device-width: 1199px) {
+@media screen and (min-device-width: 700px) and (max-device-width: 1078px) {
     /* TABLET SCREEN SIZE */
     #page-footer-kk {
         font-family: 'Raleway', sans-serif;
@@ -553,6 +553,61 @@ table {
         padding-top: 10px;
         padding-bottom: 10px;
     }
+    a {
+        text-align: center;
+    }
+    .styles {
+        width: 100%;
+    }
+    .summersty {
+        width: 100%;
+    }
+    .summerHeader {
+        background-image: url(images/summerpic.jpg);
+        position: center;
+        background-size: cover;
+        height: 400px;
+    }
+    .springHeader {
+        background-image: url(images/springdress.jpg);
+        position: center;
+        background-size: cover;
+        height: 400px;
+    }
+    .fallHeader {
+        background-image: url(images/fallleaves.jpg);
+        background-size: cover;
+        position: center;
+        height: 400px;
+    }
+    .winterHeader {
+        background-image: url(images/winterSnow.jpg);
+        position: center;
+        background-size: cover;
+        height: 500px;
+    }
+    h1 {
+        color: #ffffff;
+        font-family: 'Raleway', sans-serif;
+        text-transform: uppercase;
+        font-size: 90px;
+        padding-top: 20px;
+        text-align: center;
+        /*change the main h1 font, looks horrible*/
+    }
+    .top {
+        width: 100%;
+    }
+    .images {
+        width: 50%;
+    }
+    #pics1 {
+        display: flex;
+        flex-direction: column;
+    }
+    #hat {
+        width: 100%;
+    }
 }
 
 @media screen and (max-device-width: 700px) {
@@ -560,6 +615,7 @@ table {
     .pics {
         display: flex;
         align-items: center;
+        align-content: center;
     }
     #home:hover {
         color: #538370;
