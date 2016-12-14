@@ -499,7 +499,6 @@ table {
     #page-header-kk {
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
-        font-style: 40px;
         background-image: url(images/clothingRack.jpg);
         background-position: center;
         background-size: cover;
@@ -608,6 +607,9 @@ table {
     #hat {
         width: 100%;
     }
+    video {
+        width: 100%;
+    }
 }
 
 @media screen and (max-device-width: 700px) {
@@ -668,7 +670,6 @@ table {
     #page-header-kk {
         font-family: 'Raleway', sans-serif;
         text-transform: uppercase;
-        font-style: 40px;
         background-image: url(images/clothingRack.jpg);
         background-position: center;
         background-size: cover;
@@ -749,10 +750,10 @@ table {
         width: 373px;
     }
     ul.drop-menu li {
-        display: none; //hide
+        display: none;
     }
     li:hover > ul.drop-menu li {
-        display: block; //show
+        display: block;
     }
     #hat {
         width: 100%;
@@ -797,5 +798,8 @@ table {
         text-transform: uppercase;
         padding-top: 10px;
         padding-bottom: 10px;
+    }
+    video {
+        width: 100%;
     }
 }
