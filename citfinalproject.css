@@ -761,20 +761,19 @@
                 .summerHeader {
                     background-image: url(images/summerpic.jpg);
                     position: center;
-                    background-size: cover;
+                    background-size: contain;
                     height: 600px;
                 }
                 .springHeader {
                     background-image: url(images/springdress.jpg);
                     position: center;
-                    background-size: cover;
+                    background-size: contain;
                     height: 600px;
-                    width: 100%;
                 }
                 .fallHeader {
                     background-image: url(images/fallleaves.jpg);
                     position: center;
-                    background-size: cover;
+                    background-size: contain;
                     height: 600px;
                     width: 100%;
                 }
