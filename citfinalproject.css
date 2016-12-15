@@ -1,735 +1,739 @@
-            /* http://meyerweb.com/eric/tools/css/reset/
+ @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+ @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+ @import url('https://fonts.googleapis.com/css?family=Raleway');
+ @import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+ /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
-            
-            html,
-            body,
-            div,
-            span,
-            applet,
-            object,
-            iframe,
-            h1,
-            h2,
-            h3,
-            h4,
-            h5,
-            h6,
-            p,
-            blockquote,
-            pre,
-            a,
-            abbr,
-            acronym,
-            address,
-            big,
-            cite,
-            code,
-            del,
-            dfn,
-            em,
-            img,
-            ins,
-            kbd,
-            q,
-            s,
-            samp,
-            small,
-            strike,
-            strong,
-            sub,
-            sup,
-            tt,
-            var,
-            b,
-            u,
-            i,
-            center,
-            dl,
-            dt,
-            dd,
-            ol,
-            ul,
-            li,
-            fieldset,
-            form,
-            label,
-            legend,
-            table,
-            caption,
-            tbody,
-            tfoot,
-            thead,
-            tr,
-            th,
-            td,
-            article,
-            aside,
-            canvas,
-            details,
-            embed,
-            figure,
-            figcaption,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            output,
-            ruby,
-            section,
-            summary,
-            time,
-            mark,
-            audio,
-            video {
-                margin: 0;
-                padding: 0;
-                border: 0;
-                font-size: 100%;
-                font: inherit;
-                vertical-align: baseline;
-            }
-            /* HTML5 display-role reset for older browsers */
-            
-            article,
-            aside,
-            details,
-            figcaption,
-            figure,
-            footer,
-            header,
-            hgroup,
-            menu,
-            nav,
-            section {
-                display: block;
-            }
-            
-            body {
-                line-height: 1;
-            }
-            
-            ol,
-            ul {
-                list-style: none;
-            }
-            
-            blockquote,
-            q {
-                quotes: none;
-            }
-            
-            blockquote:before,
-            blockquote:after,
-            q:before,
-            q:after {
-                content: '';
-                content: none;
-            }
-            
-            table {
-                border-collapse: collapse;
-                border-spacing: 0;
-            }
-            /* THE START OF MY CODE IS HERE */
-            
-            @media screen and (min-device-width: 1200px) {
-                /* LAPTOP SCREEN SIZE */
-                h1 {
-                    color: #ffffff;
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 90px;
-                    padding-top: 70px;
-                    text-align: center;
-                    /*change the main h1 font, looks horrible*/
-                }
-                h2 {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 30px;
-                    display: flex;
-                    justify-content: flex-start;
-                    padding-top: 50px;
-                    padding-left: 50px;
-                }
-                #homepic {
-                    padding-top: 10px;
-                    padding-right: 10px;
-                    width: 50%;
-                    height: 500px;
-                    transition: .5s;
-                }
-                #homepic:hover {
-                    opacity: .8;
-                }
-                #homepic1 {
-                    padding-top: 10px;
-                    width: 49.4%;
-                    height: 500px;
-                    transition: .5s;
-                }
-                #homepic1:hover {
-                    opacity: .8;
-                }
-                #stripes {
-                    padding-top: 10px;
-                    padding-right: 10px;
-                    width: 50%;
-                    height: 500px;
-                    transition: .5s;
-                }
-                #stripes:hover {
-                    opacity: .8;
-                }
-                #blonde {
-                    padding-top: 10px;
-                    width: 49.4%;
-                    height: 500px;
-                    transition: .5s;
-                }
-                #blonde:hover {
-                    opacity: .8;
-                }
-                #page-nav-kk ul {
-                    list-style: none;
-                    font-size: 40px;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: row;
-                    background-color: #ffffff;
-                    width: 100%;
-                    margin: 0;
-                    font-family: 'Raleway', sans-serif;
-                    position: fixed;
-                }
-                /* HOVER ATTRIBUTES */
-                #home:hover {
-                    color: #538370;
-                }
-                #about:hover {
-                    color: #538370;
-                }
-                #spring:hover {
-                    color: #538370;
-                }
-                #winter:hover {
-                    color: #538370;
-                }
-                #fall:hover {
-                    color: #538370;
-                }
-                #summer:hover {
-                    color: #538370;
-                }
-                #page-header-kk {
-                    background-image: url(images/clothingRack.jpg);
-                    background-position: center;
-                    background-size: cover;
-                    height: 400px;
-                }
-                .winterHeader {
-                    background-image: url(images/winterSnow.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 500px;
-                }
-                #about {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 15px 15px;
-                }
-                #home {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 15px 15px;
-                }
-                #spring {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 15px 15px;
-                }
-                #winter {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 15px 15px;
-                }
-                #fall {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 15px 15px;
-                }
-                #summer {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 15px 15px;
-                }
-                #intro {
-                    display: block;
-                    width: 50%;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 30px;
-                    color: #111111;
-                    padding-left: 80px;
-                    padding-top: 30px;
-                }
-                #hat {
-                    width: 33%;
-                    height: 400px;
-                    padding-top: 30px;
-                }
-                .hello {
-                    display: flex;
-                    flex-direction: row;
-                }
-                .oneLine {
-                    display: flex;
-                    flex-direction: row;
-                }
-                .lines {
-                    display: flex;
-                    flex-direction: row;
-                }
-                .currentFashions {
-                    display: flex;
-                    justify-content: flex-start;
-                    font-family: 'Raleway', sans-serif;
-                    font-size: 25px;
-                }
-                .summerHeader {
-                    background-image: url(images/summerpic.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 600px;
-                }
-                .springHeader {
-                    background-image: url(images/springdress.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 600px;
-                }
-                .fallHeader {
-                    background-image: url(images/fallleaves.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 600px;
-                }
-                .homework {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 20px;
-                    padding-left: 50px;
-                    padding-top: 20px;
-                    list-style: circle;
-                }
-                #presentations {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 20px;
-                    padding-left: 50px;
-                    padding-top: 20px;
-                    list-style: circle;
-                }
-                .pad {
-                    padding: 10px;
-                }
-                #page-footer-kk {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 20px;
-                }
-                #pics1 {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    justify-content: center;
-                }
-                .a > img {
-                    width: 100%;
-                }
-                .a {
-                    width: 50%;
-                    padding: 20px;
-                }
-                #winterimgs {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    justify-content: center;
-                }
-                .top {
-                    padding-top: 15px;
-                }
-                .video {
-                    display: flex;
-                    justify-content: center;
-                }
-                .aboutTheSite {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 40px;
-                    max-width: 100%;
-                    padding: 40px;
-                    background-color: #fdd4c1;
-                }
-                .space {
-                    padding-top: 10px;
-                }
-                #my-new-list {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    justify-content: center;
-                    padding-top: 10px;
-                }
-                #summergetit {
-                    display: flex;
-                    flex-wrap: wrap;
-                    justify-content: space-around;
-                    justify-content: center;
-                    padding-top: 10px;
-                }
-                .sketch {
-                    max-width: 50%;
-                }
-                body {
-                    font-family: 'Raleway', sans-serif;
-                }
-                h3 {
-                    text-transform: uppercase;
-                    font-size: 20px;
-                    padding-bottom: 10px;
-                    color: red;
-                }
-                p {
-                    font-size: 20px;
-                }
-                #sitepurpose {
-                    padding: 20px;
-                }
-                #targetaudience {
-                    padding: 20px;
-                }
-                #persona {
-                    padding: 20px;
-                }
-                #wireframe {
-                    padding: 20px;
-                }
-                #json {
-                    padding: 20px;
-                }
-                #htmlvid {
-                    padding: 20px;
-                    padding-bottom: 50px;
-                }
-                #plans {
-                    padding: 20px;
-                }
-            }
-            
-            @media screen and (min-device-width: 700px) and (max-device-width: 1078px) {
-                /* TABLET SCREEN SIZE */
-                #page-footer-kk {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 20px;
-                }
-                #homepic {
-                    max-width: 100%;
-                    padding-top: 4px;
-                }
-                #homepic1 {
-                    max-width: 100%;
-                }
-                #stripes {
-                    max-width: 100%;
-                }
-                #blonde {
-                    max-width: 100%;
-                }
-                #about {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 5px 5px;
-                }
-                #home {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 5px 5px;
-                }
-                #spring {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 5px 5px;
-                }
-                #winter {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 5px 5px;
-                }
-                #fall {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 5px 5px;
-                }
-                #summer {
-                    text-decoration: none;
-                    text-transform: uppercase;
-                    color: #111111;
-                    padding: 5px 5px;
-                }
-                #page-header-kk {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    background-image: url(images/clothingRack.jpg);
-                    background-position: center;
-                    background-size: cover;
-                    height: 200px;
-                    color: #ffffff;
-                    font-size: 38px;
-                    text-align: center;
-                    padding-top: 25px;
-                }
-                #page-nav-kk {
-                    list-style: none;
-                    font-size: 25px;
-                    display: flex;
-                    justify-content: center;
-                    flex-direction: row;
-                    background-color: #ffffff;
-                    width: 100%;
-                    margin: 0;
-                    font-family: 'Raleway', sans-serif;
-                    position: fixed;
-                    text-transform: uppercase;
-                }
-                #homepic {
-                    max-width: 100%;
-                    padding-top: 4px;
-                }
-                #homepic1 {
-                    max-width: 100%;
-                }
-                #stripes {
-                    max-width: 100%;
-                }
-                #blonde {
-                    max-width: 100%;
-                }
-                .sketch {
-                    max-width: 100%;
-                }
-                body {
-                    font-family: 'Raleway', sans-serif;
-                }
-                h3 {
-                    text-transform: uppercase;
-                    font-size: 20px;
-                    padding-bottom: 10px;
-                    color: red;
-                }
-                #plans {
-                    font-size: 30px;
-                    text-transform: uppercase;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                }
-                a {
-                    text-align: center;
-                }
-                .styles {
-                    width: 100%;
-                }
-                .summersty {
-                    width: 100%;
-                }
-                .summerHeader {
-                    background-image: url(images/summerpic.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 400px;
-                }
-                .springHeader {
-                    background-image: url(images/springdress.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 400px;
-                }
-                .fallHeader {
-                    background-image: url(images/fallleaves.jpg);
-                    background-size: cover;
-                    position: center;
-                    height: 400px;
-                }
-                .winterHeader {
-                    background-image: url(images/winterSnow.jpg);
-                    position: center;
-                    background-size: cover;
-                    height: 500px;
-                }
-                h1 {
-                    color: #ffffff;
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    font-size: 90px;
-                    padding-top: 20px;
-                    text-align: center;
-                    /*change the main h1 font, looks horrible*/
-                }
-                .top {
-                    width: 100%;
-                }
-                .images {
-                    width: 50%;
-                }
-                #pics1 {
-                    display: flex;
-                    flex-direction: column;
-                }
-                #hat {
-                    width: 100%;
-                }
-                video {
-                    width: 100%;
-                }
-            }
-            
-            @media screen and (max-device-width: 700px) {
-                /* MOBILE SCREEN SIZE */
-                #page-nav-kk {
-                    list-style: none;
-                    width: 100%;
-                    margin: 0;
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                }
-                .menu-btn div {
-                    position: absolute;
-                    left: 100%;
-                    top: 64%;
-                    padding-right: 8px;
-                    margin-top: -0.50em;
-                    line-height: 1.2;
-                    font-size: 18px;
-                    font-weight: 200;
-                    vertical-align: middle;
-                    z-index: 99;
-                }
-                .menu-btn span {
-                    display: block;
-                    width: 19px;
-                    height: 3px;
-                    margin: 4px 0;
-                    background: rgb(0, 0, 0);
-                    z-index: 99;
-                }
-                .responsive-menu {
-                    display: none;
-                }
-                .expand {
-                    display: block !important;
-                }
-                #page-header-kk {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    background-image: url(images/clothingRack.jpg);
-                    background-position: center;
-                    background-size: cover;
-                    font-size: 30px;
-                    height: 200px;
-                }
-                .top {
-                    width: 100%;
-                }
-                .styles {
-                    width: 100%;
-                }
-                .summersty {
-                    width: 100%;
-                }
-                .headers {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    width: 100%;
-                    text-align: center;
-                    font-size: 50px;
-                }
-                .images1 {
-                    width: 100%;
-                }
-                .images {
-                    width: 100%;
-                }
-                #hat {
-                    width: 100%;
-                }
-                video {
-                    width: 100%;
-                }
-                h1 {
-                    text-align: center;
-                    color: white;
-                }
-                #intro {
-                    background-color: #fdd4c1;
-                    font-family: 'Raleway', sans-serif;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                }
-                .sketch {
-                    width: 100%;
-                }
-                h2 {
-                    text-transform: uppercase;
-                    font-size: 30px;
-                    font-family: 'Raleway', sans-serif;
-                }
-                h3 {
-                    font-family: 'Raleway', sans-serif;
-                    text-transform: uppercase;
-                    padding-bottom: 10px;
-                    padding-top: 10px;
-                    color: red;
-                }
-                p {
-                    font-family: 'Raleway', sans-serif;
-                }
-                #homepic {
-                    width: 100%;
-                }
-                #homepic1 {
-                    width: 100%;
-                }
-                #stripes {
-                    width: 100%;
-                }
-                #blonde {
-                    width: 100%;
-                }
-                .abouttheSite {
-                    font-family: 'Raleway', sans-serif;
-                    background-color: #fdd4c1;
-                    padding-top: 10px;
-                    padding-bottom: 10px;
-                }
-                #page-footer-kk {
-                    font-family: 'Raleway', sans-serif;
-                }
-                /*  .pics {
+ 
+ html,
+ body,
+ div,
+ span,
+ applet,
+ object,
+ iframe,
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6,
+ p,
+ blockquote,
+ pre,
+ a,
+ abbr,
+ acronym,
+ address,
+ big,
+ cite,
+ code,
+ del,
+ dfn,
+ em,
+ img,
+ ins,
+ kbd,
+ q,
+ s,
+ samp,
+ small,
+ strike,
+ strong,
+ sub,
+ sup,
+ tt,
+ var,
+ b,
+ u,
+ i,
+ center,
+ dl,
+ dt,
+ dd,
+ ol,
+ ul,
+ li,
+ fieldset,
+ form,
+ label,
+ legend,
+ table,
+ caption,
+ tbody,
+ tfoot,
+ thead,
+ tr,
+ th,
+ td,
+ article,
+ aside,
+ canvas,
+ details,
+ embed,
+ figure,
+ figcaption,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ output,
+ ruby,
+ section,
+ summary,
+ time,
+ mark,
+ audio,
+ video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+     vertical-align: baseline;
+ }
+ /* HTML5 display-role reset for older browsers */
+ 
+ article,
+ aside,
+ details,
+ figcaption,
+ figure,
+ footer,
+ header,
+ hgroup,
+ menu,
+ nav,
+ section {
+     display: block;
+ }
+ 
+ body {
+     line-height: 1;
+ }
+ 
+ ol,
+ ul {
+     list-style: none;
+ }
+ 
+ blockquote,
+ q {
+     quotes: none;
+ }
+ 
+ blockquote:before,
+ blockquote:after,
+ q:before,
+ q:after {
+     content: '';
+     content: none;
+ }
+ 
+ table {
+     border-collapse: collapse;
+     border-spacing: 0;
+ }
+ /* THE START OF MY CODE IS HERE */
+ 
+ @media screen and (min-device-width: 1200px) {
+     /* LAPTOP SCREEN SIZE */
+     h1 {
+         color: #ffffff;
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 90px;
+         padding-top: 70px;
+         text-align: center;
+         /*change the main h1 font, looks horrible*/
+     }
+     h2 {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 30px;
+         display: flex;
+         justify-content: flex-start;
+         padding-top: 50px;
+         padding-left: 50px;
+     }
+     #homepic {
+         padding-top: 10px;
+         padding-right: 10px;
+         width: 50%;
+         height: 500px;
+         transition: .5s;
+     }
+     #homepic:hover {
+         opacity: .8;
+     }
+     #homepic1 {
+         padding-top: 10px;
+         width: 49.4%;
+         height: 500px;
+         transition: .5s;
+     }
+     #homepic1:hover {
+         opacity: .8;
+     }
+     #stripes {
+         padding-top: 10px;
+         padding-right: 10px;
+         width: 50%;
+         height: 500px;
+         transition: .5s;
+     }
+     #stripes:hover {
+         opacity: .8;
+     }
+     #blonde {
+         padding-top: 10px;
+         width: 49.4%;
+         height: 500px;
+         transition: .5s;
+     }
+     #blonde:hover {
+         opacity: .8;
+     }
+     #page-nav-kk ul {
+         list-style: none;
+         font-size: 40px;
+         display: flex;
+         justify-content: center;
+         flex-direction: row;
+         background-color: #ffffff;
+         width: 100%;
+         margin: 0;
+         font-family: 'Raleway', sans-serif;
+         position: fixed;
+     }
+     /* HOVER ATTRIBUTES */
+     #home:hover {
+         color: #538370;
+     }
+     #about:hover {
+         color: #538370;
+     }
+     #spring:hover {
+         color: #538370;
+     }
+     #winter:hover {
+         color: #538370;
+     }
+     #fall:hover {
+         color: #538370;
+     }
+     #summer:hover {
+         color: #538370;
+     }
+     #page-header-kk {
+         background-image: url(images/clothingRack.jpg);
+         background-position: center;
+         background-size: cover;
+         height: 400px;
+     }
+     .winterHeader {
+         background-image: url(images/winterSnow.jpg);
+         position: center;
+         background-size: cover;
+         height: 500px;
+     }
+     #about {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 15px 15px;
+     }
+     #home {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 15px 15px;
+     }
+     #spring {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 15px 15px;
+     }
+     #winter {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 15px 15px;
+     }
+     #fall {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 15px 15px;
+     }
+     #summer {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 15px 15px;
+     }
+     #intro {
+         display: block;
+         width: 50%;
+         font-family: 'Raleway', sans-serif;
+         font-size: 30px;
+         color: #111111;
+         padding-left: 80px;
+         padding-top: 30px;
+     }
+     #hat {
+         width: 33%;
+         height: 400px;
+         padding-top: 30px;
+     }
+     .hello {
+         display: flex;
+         flex-direction: row;
+     }
+     .oneLine {
+         display: flex;
+         flex-direction: row;
+     }
+     .lines {
+         display: flex;
+         flex-direction: row;
+     }
+     .currentFashions {
+         display: flex;
+         justify-content: flex-start;
+         font-family: 'Raleway', sans-serif;
+         font-size: 25px;
+     }
+     .summerHeader {
+         background-image: url(images/summerpic.jpg);
+         position: center;
+         background-size: cover;
+         height: 600px;
+     }
+     .springHeader {
+         background-image: url(images/springdress.jpg);
+         position: center;
+         background-size: cover;
+         height: 600px;
+     }
+     .fallHeader {
+         background-image: url(images/fallleaves.jpg);
+         position: center;
+         background-size: cover;
+         height: 600px;
+     }
+     .homework {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 20px;
+         padding-left: 50px;
+         padding-top: 20px;
+         list-style: circle;
+     }
+     #presentations {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 20px;
+         padding-left: 50px;
+         padding-top: 20px;
+         list-style: circle;
+     }
+     .pad {
+         padding: 10px;
+     }
+     #page-footer-kk {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 20px;
+     }
+     #pics1 {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         justify-content: center;
+     }
+     .a > img {
+         width: 100%;
+     }
+     .a {
+         width: 50%;
+         padding: 20px;
+     }
+     #winterimgs {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         justify-content: center;
+     }
+     .top {
+         padding-top: 15px;
+     }
+     .video {
+         display: flex;
+         justify-content: center;
+     }
+     .aboutTheSite {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 40px;
+         max-width: 100%;
+         padding: 40px;
+         background-color: #fdd4c1;
+     }
+     .space {
+         padding-top: 10px;
+     }
+     #my-new-list {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         justify-content: center;
+         padding-top: 10px;
+     }
+     #summergetit {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: space-around;
+         justify-content: center;
+         padding-top: 10px;
+     }
+     .sketch {
+         max-width: 50%;
+     }
+     body {
+         font-family: 'Raleway', sans-serif;
+     }
+     h3 {
+         text-transform: uppercase;
+         font-size: 20px;
+         padding-bottom: 10px;
+         color: red;
+     }
+     p {
+         font-size: 20px;
+     }
+     #sitepurpose {
+         padding: 20px;
+     }
+     #targetaudience {
+         padding: 20px;
+     }
+     #persona {
+         padding: 20px;
+     }
+     #wireframe {
+         padding: 20px;
+     }
+     #json {
+         padding: 20px;
+     }
+     #htmlvid {
+         padding: 20px;
+         padding-bottom: 50px;
+     }
+     #plans {
+         padding: 20px;
+     }
+ }
+ 
+ @media screen and (min-device-width: 700px) and (max-device-width: 1078px) {
+     /* TABLET SCREEN SIZE */
+     #page-footer-kk {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 20px;
+     }
+     #homepic {
+         max-width: 100%;
+         padding-top: 4px;
+     }
+     #homepic1 {
+         max-width: 100%;
+     }
+     #stripes {
+         max-width: 100%;
+     }
+     #blonde {
+         max-width: 100%;
+     }
+     #about {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 5px 5px;
+     }
+     #home {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 5px 5px;
+     }
+     #spring {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 5px 5px;
+     }
+     #winter {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 5px 5px;
+     }
+     #fall {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 5px 5px;
+     }
+     #summer {
+         text-decoration: none;
+         text-transform: uppercase;
+         color: #111111;
+         padding: 5px 5px;
+     }
+     #page-header-kk {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         background-image: url(images/clothingRack.jpg);
+         background-position: center;
+         background-size: cover;
+         height: 200px;
+         color: #ffffff;
+         font-size: 38px;
+         text-align: center;
+         padding-top: 25px;
+     }
+     #page-nav-kk {
+         list-style: none;
+         font-size: 25px;
+         display: flex;
+         justify-content: center;
+         flex-direction: row;
+         background-color: #ffffff;
+         width: 100%;
+         margin: 0;
+         font-family: 'Raleway', sans-serif;
+         position: fixed;
+         text-transform: uppercase;
+     }
+     #homepic {
+         max-width: 100%;
+         padding-top: 4px;
+     }
+     #homepic1 {
+         max-width: 100%;
+     }
+     #stripes {
+         max-width: 100%;
+     }
+     #blonde {
+         max-width: 100%;
+     }
+     .sketch {
+         max-width: 100%;
+     }
+     body {
+         font-family: 'Raleway', sans-serif;
+     }
+     h3 {
+         text-transform: uppercase;
+         font-size: 20px;
+         padding-bottom: 10px;
+         color: red;
+     }
+     #plans {
+         font-size: 30px;
+         text-transform: uppercase;
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+     a {
+         text-align: center;
+     }
+     .styles {
+         width: 100%;
+     }
+     .summersty {
+         width: 100%;
+     }
+     .summerHeader {
+         background-image: url(images/summerpic.jpg);
+         position: center;
+         background-size: cover;
+         height: 400px;
+     }
+     .springHeader {
+         background-image: url(images/springdress.jpg);
+         position: center;
+         background-size: cover;
+         height: 400px;
+     }
+     .fallHeader {
+         background-image: url(images/fallleaves.jpg);
+         background-size: cover;
+         position: center;
+         height: 400px;
+     }
+     .winterHeader {
+         background-image: url(images/winterSnow.jpg);
+         position: center;
+         background-size: cover;
+         height: 500px;
+     }
+     h1 {
+         color: #ffffff;
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         font-size: 90px;
+         padding-top: 20px;
+         text-align: center;
+         /*change the main h1 font, looks horrible*/
+     }
+     .top {
+         width: 100%;
+     }
+     .images {
+         width: 50%;
+     }
+     #pics1 {
+         display: flex;
+         flex-direction: column;
+     }
+     #hat {
+         width: 100%;
+     }
+     video {
+         width: 100%;
+     }
+ }
+ 
+ @media screen and (max-device-width: 700px) {
+     /* MOBILE SCREEN SIZE */
+     #page-nav-kk {
+         list-style: none;
+         width: 100%;
+         margin: 0;
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+     }
+     .menu-btn div {
+         position: absolute;
+         left: 100%;
+         top: 64%;
+         padding-right: 8px;
+         margin-top: -0.50em;
+         line-height: 1.2;
+         font-size: 18px;
+         font-weight: 200;
+         vertical-align: middle;
+         z-index: 99;
+     }
+     .menu-btn span {
+         display: block;
+         width: 19px;
+         height: 3px;
+         margin: 4px 0;
+         background: rgb(0, 0, 0);
+         z-index: 99;
+     }
+     .responsive-menu {
+         display: none;
+     }
+     .expand {
+         display: block !important;
+     }
+     #page-header-kk {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         background-image: url(images/clothingRack.jpg);
+         background-position: center;
+         background-size: cover;
+         font-size: 30px;
+         height: 200px;
+     }
+     .top {
+         width: 100%;
+     }
+     .styles {
+         width: 100%;
+     }
+     .summersty {
+         width: 100%;
+     }
+     .headers {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         width: 100%;
+         text-align: center;
+         font-size: 50px;
+     }
+     .images1 {
+         width: 100%;
+     }
+     .images {
+         width: 100%;
+     }
+     #hat {
+         width: 100%;
+     }
+     video {
+         width: 100%;
+     }
+     h1 {
+         text-align: center;
+         color: white;
+     }
+     #intro {
+         background-color: #fdd4c1;
+         font-family: 'Raleway', sans-serif;
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+     .sketch {
+         width: 100%;
+     }
+     h2 {
+         text-transform: uppercase;
+         font-size: 30px;
+         font-family: 'Raleway', sans-serif;
+     }
+     h3 {
+         font-family: 'Raleway', sans-serif;
+         text-transform: uppercase;
+         padding-bottom: 10px;
+         padding-top: 10px;
+         color: red;
+     }
+     p {
+         font-family: 'Raleway', sans-serif;
+     }
+     #homepic {
+         width: 100%;
+     }
+     #homepic1 {
+         width: 100%;
+     }
+     #stripes {
+         width: 100%;
+     }
+     #blonde {
+         width: 100%;
+     }
+     .abouttheSite {
+         font-family: 'Raleway', sans-serif;
+         background-color: #fdd4c1;
+         padding-top: 10px;
+         padding-bottom: 10px;
+     }
+     #page-footer-kk {
+         font-family: 'Raleway', sans-serif;
+     }
+     /*  .pics {
                     display: flex;
                     align-items: center;
                     align-content: center;
@@ -924,4 +928,4 @@
                 }
                 
                 */
-            }
+ }

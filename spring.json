@@ -1,40 +1,40 @@
 {
     "cuteOutfit1": {
-        "imgSrc": "/images/stripedSpringShirt.jpg",
+        "imgSrc": "/images/striped-spring-shirt.jpg",
         "link": "https://lucaandgrae.com/products/grey-striped-button-down-shirt-sascha?lssrc=recentviews"
 
 
     },
 
     "cute2": {
-        "imgSrc": "/images/springTopLong.jpeg",
+        "imgSrc": "/images/spring-top-long.jpeg",
         "link": "http://www.roolee.com/tops/seasons-change-blouse"
 
 
     },
     "cute3": {
-        "imgSrc": "/images/springDressMaxi.jpg",
+        "imgSrc": "/images/spring-dress-maxi.jpg",
         "link": "http://www.roolee.com/clearance/the-nara-blossom"
 
     },
 
     "cute4": {
-        "imgSrc": "/images/springFloralShort.jpeg",
+        "imgSrc": "/images/spring-floral-short.jpeg",
         "link": "https://www.anthropologie.com/shop/red-rose-dress?category=dresses-occasion-cocktail&color=069"
 
     },
 
     "cute5": {
-        "imgSrc": "/images/springWhiteTop.jpeg",
+        "imgSrc": "/images/spring-white-top.jpeg",
         "link": "https://www.anthropologie.com/shop/rimine-poplin-top?category=tops-blouses&color=010"
     },
-    
-    "cute6":{
-        "imgSrc": "/images/springPinkRuffle.jpeg",
+
+    "cute6": {
+        "imgSrc": "/images/spring-pink-ruffle.jpeg",
         "link": "https://www.anthropologie.com/shop/tiered-tunic-top?category=tops-blouses&color=064"
     },
-    "cute7":{
-        "imgSrc": "/images/springPinkRuffles.jpeg",
+    "cute7": {
+        "imgSrc": "/images/spring-pink-ruffles.jpeg",
         "link": "https://www.francescas.com/product/darcie-floral-bell-sleeve-shift-dress.do?sortby=ourPicksAscend&page=2&refType=&from=fn&ecList=7&ecCategory=100122"
     }
 
