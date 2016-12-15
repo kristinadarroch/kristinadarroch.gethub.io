@@ -138,6 +138,7 @@
      border-spacing: 0;
  }
  /* THE START OF MY CODE IS HERE */
+ /* PLEASE OPEN MY DIFFERENT SCREEN SIZES IN THE DEVELOPER TOOLS. THERE IS AN ISSUE WITH JUST MOVING THE VIEWPORT */
  
  @media screen and (min-device-width: 1200px) {
      /* LAPTOP SCREEN SIZE */
